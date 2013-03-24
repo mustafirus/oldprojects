@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<db name="kino" version="1.0">
+	<tables>
+		<table name="dog">
+			<id>
+				<field name="id" type="int" len="4"/>
+			</id>
+			<field name="name" type="string" len="30"/>
+			<fkey name="owner" table="owner">
+				<field name="owner_id" type="int" len="4"/>
+			</fkey>
+			<fkey name="father" table="dog">
+				<field name="father_id" type="int" len="4"/>
+			</fkey>
+			<fkey name="mother" table="dog">
+				<field name="mother_id" type="int" len="4"/>
+			</fkey>
+			<expression name="shit" type="unknown"> 1 + 2 fucking script </expression>
+		</table>
+		<table name="owner">
+			<id>
+				<field name="id" type="int" len="4"/>
+			</id>
+			<field name="name" type="string" len="30"/>
+			<fkey name="city" table="city">
+				<field name="city_name" type="string" len="30"/>
+				<field name="city_country" type="string" len="30"/>
+			</fkey>
+		</table>
+		<table name="city">
+			<id>
+				<field name="name" type="string" len="30"/>
+				<field name="country" type="string" len="30"/>
+			</id>
+		</table>
+	</tables>
+	<views>
+		<view name="doglist" table="dog">
+			<qfield name="name" ref="name"/>
+			<qfield name="father" ref="father.name"/>
+			<qfield name="mother" ref="mother.name" caption="mother name"/>
+		</view>
+	</views>
+</db>

@@ -1,0 +1,42 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SumaPropis", "SumaPropis.vcproj", "{06D3202F-0F55-4B15-A65A-09C7403FD901}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test", "test\test.vcproj", "{6E0B7C33-731D-4BD7-80C7-8B85F4256139}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 3
+		SccProjectUniqueName0 = SumaPropis.vcproj
+		SccLocalPath0 = .
+		CanCheckoutShared = false
+		SccProjectUniqueName1 = test\\test.vcproj
+		SccProjectName1 = \u0022$/SumaPropis/test\u0022,\u0020FBBAAAAA
+		SccLocalPath1 = test
+		CanCheckoutShared = false
+		SccLocalPath2 = .
+		CanCheckoutShared = false
+		SolutionUniqueID = {89AA37B6-2FE4-4569-80C2-AAB7E852D856}
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{06D3202F-0F55-4B15-A65A-09C7403FD901}.Debug.ActiveCfg = Debug|Win32
+		{06D3202F-0F55-4B15-A65A-09C7403FD901}.Debug.Build.0 = Debug|Win32
+		{06D3202F-0F55-4B15-A65A-09C7403FD901}.Release.ActiveCfg = Release|Win32
+		{06D3202F-0F55-4B15-A65A-09C7403FD901}.Release.Build.0 = Release|Win32
+		{6E0B7C33-731D-4BD7-80C7-8B85F4256139}.Debug.ActiveCfg = Debug|Win32
+		{6E0B7C33-731D-4BD7-80C7-8B85F4256139}.Debug.Build.0 = Debug|Win32
+		{6E0B7C33-731D-4BD7-80C7-8B85F4256139}.Release.ActiveCfg = Release|Win32
+		{6E0B7C33-731D-4BD7-80C7-8B85F4256139}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

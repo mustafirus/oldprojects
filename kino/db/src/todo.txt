@@ -1,0 +1,14 @@
+Sort button
+setfocus on activate
+UI copy past
+show all rectriction
+rowcount
+scrollbars
+add fields
+varsize of recordset
+crack dates
+don't allow form to have size > size of mainwindow
+center user dlg
+Frame Draw
+mouse dblclk
+local correct

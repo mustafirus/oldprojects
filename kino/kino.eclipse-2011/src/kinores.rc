@@ -1,0 +1,239 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "kinods.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+#include "kinores.h"
+
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Russian resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+#ifdef _WIN32
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU DISCARDABLE 
+BEGIN
+    POPUP "Файл"
+    BEGIN
+        MENUITEM "Печать\tCtrl+P",              ID_FILE_PRINT, GRAYED
+        MENUITEM "Настройки печати\tCtrl+Shift+P", ID_FILE_PRINT_SETUP
+        , GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "Выход",                       ID_FILE_EXIT
+    END
+    POPUP "Правка"
+    BEGIN
+        MENUITEM "Отмена\tCtrl+Z",              ID_EDIT_UNDO, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "Вырезать\tCtrl+X",            ID_EDIT_CUT, GRAYED
+        MENUITEM "Копировать\tCtrl+C",          ID_EDIT_COPY, GRAYED
+        MENUITEM "Вставить\tCtrl+V",            ID_EDIT_PASTE, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "Добавить запись\tIns",        ID_RECORD_INSERT, GRAYED
+        MENUITEM "Удалить\tDel",                ID_RECORD_DELETE, GRAYED
+        MENUITEM "Сохранить\tCtrl+S",           ID_RECORD_SAVE, GRAYED
+        MENUITEM "Обновить запись\tF5",         ID_RECORD_REFRESH, GRAYED
+        MENUITEM "Отменить изменения\tCtrl+Shift+Z", ID_RECORD_UNDO, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "Специальные функции",         65535
+    END
+    POPUP "Журналы"
+    BEGIN
+        MENUITEM "Собаки\tAlt+D",               ID_CAT_DOG, GRAYED
+        MENUITEM "Направления",                 ID_CAT_GOFUCK, GRAYED
+        MENUITEM "Вязки\tAlt+F",                ID_CAT_FUCKING, GRAYED
+        MENUITEM "Щенки\tAlt+B",                ID_CAT_BABY, GRAYED
+        MENUITEM "Владельцы\tAlt+O",            ID_CAT_OWNER, GRAYED
+        MENUITEM "Выставки",                    ID_CAT_SHOW, GRAYED
+    END
+    POPUP "Справочники"
+    BEGIN
+        MENUITEM "Города",                      ID_CAT_CITY, GRAYED
+        MENUITEM "Улицы",                       ID_CAT_STREET, GRAYED
+        MENUITEM "Породы",                      ID_CAT_BREED, GRAYED
+        MENUITEM "Окрасы",                      ID_CAT_COLOR, GRAYED
+        MENUITEM "Клубы",                       ID_CAT_CLUB, GRAYED
+        MENUITEM "Питомники/Заводы",            ID_CAT_FACTORY, GRAYED
+        MENUITEM "Судьи",                       ID_CAT_REFERY, GRAYED
+    END
+    MENUITEM "?",                           65535
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+DOG ACCELERATORS DISCARDABLE 
+BEGIN
+    "G",            ID_PEDIGREE,            VIRTKEY, CONTROL, NOINVERT
+    "T",            ID_DOG_TITUL,           VIRTKEY, CONTROL, NOINVERT
+END
+
+FUCKING ACCELERATORS DISCARDABLE 
+BEGIN
+    "B",            ID_BABYADD,             VIRTKEY, CONTROL, NOINVERT
+END
+
+BABY ACCELERATORS DISCARDABLE 
+BEGIN
+    "U",            ID_BABY_UPGRADE,        VIRTKEY, CONTROL, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_CAT_DOG              "Журнал собак"
+    ID_CAT_BABY             "Журнал щенков"
+    ID_CAT_FUCKING          "Журнал вязок"
+    ID_CAT_GOFUCK           "Журнал направлений на вязку"
+    ID_CAT_SHOW             "Журнал выставок"
+    ID_CAT_OWNER            "Журнал владельцев"
+    ID_CAT_STREET           "Справочник улиц"
+    ID_CAT_CITY             "Справочник городов"
+    ID_CAT_COLOR            "Справочник окрасов"
+    ID_CAT_BREED            "Спавочник пород"
+    ID_CAT_REFERY           "Справочник судей"
+    ID_CAT_CLUB             "Справочник клубов"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_CAT_FACTORY          "Справочник заводов/питомников"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_EXPORT          "Экспорт"
+    ID_FILE_PRINT_SETUP     "Настройка печати"
+    ID_FILE_PRINT           "Печать"
+    ID_FILE_EXIT            "Выход"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_RECORD_INSERT        "Добавить запись"
+    ID_RECORD_DELETE        "Удалить запись"
+    ID_RECORD_SAVE          "Сохранить запись"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_CUT             "Вырезать в буфер"
+    ID_EDIT_COPY            "Скопировать в буфер"
+    ID_EDIT_PASTE           "Вставить из буфера"
+    ID_EDIT_UNDO            "Отмена"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_WAIT_MESSAGE         "Подождите..."
+    ID_READY_MESSAGE        "Готово"
+END
+
+#endif    // Russian resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Unknown language: 0x22, 0x1 resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_UKR)
+#ifdef _WIN32
+LANGUAGE 0x22, 0x1
+#pragma code_page(1251)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS DISCARDABLE 
+BEGIN
+    "B",            ID_CAT_BABY,            VIRTKEY, ALT, NOINVERT
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    "D",            ID_CAT_DOG,             VIRTKEY, ALT, NOINVERT
+    "F",            ID_CAT_FUCKING,         VIRTKEY, ALT, NOINVERT
+    "O",            ID_CAT_OWNER,           VIRTKEY, ALT, NOINVERT
+    "P",            ID_FILE_PRINT,          VIRTKEY, CONTROL, NOINVERT
+    "P",            ID_FILE_PRINT_SETUP,    VIRTKEY, SHIFT, CONTROL, 
+                                                    NOINVERT
+    "S",            ID_RECORD_SAVE,         VIRTKEY, CONTROL, NOINVERT
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL, NOINVERT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT, NOINVERT
+    VK_F5,          ID_RECORD_REFRESH,      VIRTKEY, NOINVERT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT, NOINVERT
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL, NOINVERT
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL, NOINVERT
+    "Z",            ID_RECORD_UNDO,         VIRTKEY, SHIFT, CONTROL, 
+                                                    NOINVERT
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "kinods.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "#include ""kinores.h""\r\n"
+    "\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Unknown language: 0x22, 0x1 resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

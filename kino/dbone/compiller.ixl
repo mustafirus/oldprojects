@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<iSiloXDocumentList>
+  <iSiloXDocument>
+    <Source>
+      <Sources>
+        <Path>P:\dbone\doc\compiller\html\index.html</Path>
+      </Sources>
+      <CharSet>Windows-1251</CharSet>
+    </Source>
+    <Destination>
+      <Title>compiller</Title>
+      <HotSync>
+        <Path>Glv Palm</Path>
+      </HotSync>
+    </Destination>
+    <LinkOptions>
+      <MaximumDepth value="8"/>
+      <FollowOffsite value="no"/>
+      <SubDirOnly value="no"/>
+      <UnresolvedDetail value="exclude"/>
+    </LinkOptions>
+    <ImageOptions>
+      <AltText value="exclude"/>
+      <Images value="include"/>
+      <ResizeLargeImages value="yes"/>
+      <ImproveContrast value="yes"/>
+      <Dither value="yes"/>
+      <MaximumWidth value="304"/>
+      <MaximumHeight value="264"/>
+      <Compress value="yes"/>
+      <BitDepth1 value="exclude"/>
+      <BitDepth2 value="exclude"/>
+      <BitDepth4 value="exclude"/>
+      <BitDepth8 value="exclude"/>
+      <BitDepth16 value="include"/>
+      <LossyLevel value="none"/>
+      <LossyQuality value="75"/>
+    </ImageOptions>
+    <TableOptions>
+      <IgnoreTables value="no"/>
+      <AddSeparators value="no"/>
+      <UseMinimumDepth value="no"/>
+      <MinimumDepth value="1"/>
+      <UseMaximumBottomReach value="no"/>
+      <MaximumBottomReach value="1"/>
+      <UnfoldFullPageTables value="no"/>
+      <IgnorePixelWidths value="no"/>
+    </TableOptions>
+    <ColorOptions>
+      <BackgroundColors value="keep"/>
+      <TextColors value="keep"/>
+    </ColorOptions>
+    <MarginOptions>
+      <LeftRightMargins value="keep"/>
+      <LeftRightPadding value="keep"/>
+    </MarginOptions>
+    <SecurityOptions>
+      <Convert value="allow"/>
+      <CopyBeam value="allow"/>
+      <CopyAndPaste value="allow"/>
+      <Modify value="allow"/>
+      <Print value="allow"/>
+    </SecurityOptions>
+    <TextOptions>
+      <PreUseMonospaceFont value="yes"/>
+      <PreSingleLineBreaks value="KeepAll"/>
+      <ProcessLineBreaks value="yes"/>
+      <ConvertSingleLineBreaks value="no"/>
+      <Preformatted value="no"/>
+      <UseMonospaceFont value="no"/>
+      <MonospaceFontSize value="10"/>
+      <TabStopWidth value="8"/>
+    </TextOptions>
+    <DocumentOptions>
+      <PageBounds value="hard"/>
+      <UseDefaultCategory value="no"/>
+      <HomePageNumber value="1"/>
+      <OpenHomePageOnDateChange value="no"/>
+      <CharSet>Windows-1251</CharSet>
+    </DocumentOptions>
+    <Bookmarks>
+      <Document>
+        <UseFile value="no"/>
+        <UseNamedAnchors value="no"/>
+        <NamedAnchorType value="WordWebPage"/>
+        <UseIncludeFilter value="no"/>
+        <UseExcludeFilter value="no"/>
+      </Document>
+    </Bookmarks>
+    <LastConversion>
+      <Date>2005/01/12 04:40:04</Date>
+      <Size value="278055"/>
+      <Status>Successful conversion</Status>
+    </LastConversion>
+    <Messages>
+      <Title>Compiller</Title>
+    </Messages>
+  </iSiloXDocument>
+</iSiloXDocumentList>

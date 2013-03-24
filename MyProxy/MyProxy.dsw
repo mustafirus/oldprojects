@@ -1,0 +1,69 @@
+Microsoft Developer Studio Workspace File, Format Version 6.00
+# WARNING: DO NOT EDIT OR DELETE THIS WORKSPACE FILE!
+
+###############################################################################
+
+Project: "MyProxy"=.\MyProxy.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/MyProxy", LADAAAAA
+    .
+    end source code control
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "curc"=.\curc\curc.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/MyProxy/curc", JBDAAAAA
+    .\curc
+    end source code control
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "sur"=.\sur\sur.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/MyProxy/sur", DBDAAAAA
+    .\sur
+    end source code control
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Global:
+
+Package=<5>
+{{{
+    begin source code control
+    "$/MyProxy", LADAAAAA
+    .
+    end source code control
+}}}
+
+Package=<3>
+{{{
+}}}
+
+###############################################################################
+

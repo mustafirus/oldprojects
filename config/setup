@@ -1,0 +1,32 @@
+#!/bin/sh
+DESTDEV=md
+DESTDIR=/chroot
+DEV1=sda
+DEV2=sdb
+MKFS=mkfs.ext3
+
+for N in 1 5 6 7; do
+    if [ X$DESTDEV=Xmd ]; then
+	echo making /dev/md$N
+	[ ! -d /sys/block/$DEV1/$DEV1$N -o -d /sys/block/$DEV1/$DEV2$N ] && \
+	    echo "device $DEV1$N or $DEV2$N not found" && exit 
+	[ ! -d /sys/block/md$N ] && \
+	    (mdadm -C /dev/md$N -l1 -n2 /dev/$DEV1$N /dev/$DEV2$N || exit)
+    fi
+    [ -d /sys/block/$DESTDEV$N ] && \
+        $MKFS -j /dev/$DESTDEV$N || exit
+    tune2fs -c7 -i7 /dev/$DESTDEV$N || exit
+done
+mount /dev/$($DESTDEV)1 $DESTDIR
+if [ ! -d $($DESTDIR)/var ]; then
+    mkdir $($DESTDIR)/var
+fi
+if [ ! -d $($DESTDIR)/usr ]; then
+    mkdir $($DESTDIR)/usr
+fi
+if [ ! -d $($DESTDIR)/home ]; then
+    mkdir $($DESTDIR)/home
+fi
+mount /dev/$($DESTDEV)5 $($DESTDIR)/var
+mount /dev/$($DESTDEV)6 $($DESTDIR)/usr
+mount /dev/$($DESTDEV)7 $($DESTDIR)/home

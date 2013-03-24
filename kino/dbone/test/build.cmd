@@ -1,0 +1,1 @@
+P:\dbone\compiler\Debug\compiler.exe -i testdata -o testdata.bin

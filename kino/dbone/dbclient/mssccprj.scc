@@ -1,0 +1,5 @@
+SCC = This is a Source Code Control file
+
+[dbclient.vcproj]
+SCC_Aux_Path = "\\Srv\c++proj\Sources"
+SCC_Project_Name = "$/dbone.root/dbone/dbclient", WIDAAAAA

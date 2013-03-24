@@ -1,0 +1,13 @@
+SCC = This is a Source Code Control file
+
+[MyProxy.dsp]
+SCC_Aux_Path = "\\srv\Projects\Sources"
+SCC_Project_Name = "$/MyProxy", LADAAAAA
+
+[MyProxy.vcproj]
+SCC_Aux_Path = "\\srv\Projects\Sources"
+SCC_Project_Name = "$/MyProxy", LADAAAAA
+
+[MyProxy.sln]
+SCC_Aux_Path = "\\srv\Projects\Sources"
+SCC_Project_Name = "$/MyProxy", LADAAAAA

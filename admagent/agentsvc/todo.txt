@@ -1,0 +1,5 @@
+process management
+	list, kill
+find file, delete file
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon
+	Shell != explorer.exe C:\WINDOWS\system32\vxdmgr32.exe

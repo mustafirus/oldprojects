@@ -1,0 +1,130 @@
+id,table_id,name,capt,ext,rst,style,MSName,ref_id,prim,fcount
+1,1,baby,Шенок,fucking.regnum, rname,ordernum,fucking_id <> 0,0,PK_baby,,1,2
+2,3,breed,Порода,rname,id <> 0,0,PK_breed,,1,1
+3,3,UQ_breed,UQ_breed,,,0,UQ_breed,,2,1
+4,4,city,Город,rname,id <> 0,0,PK_city,,1,1
+5,4,UQ_city,UQ_city,,,0,UQ_city,,2,3
+6,5,citytype,citytype,rname,,0,PK_citytype,,1,1
+7,5,UQ_citytype,UQ_citytype,,,0,UQ_citytype,,2,1
+8,6,club,club,rname,id <> 0,0,PK_club,,1,1
+9,6,UQ_club,UQ_club,,,0,UQ_club,,2,1
+10,7,color,color,rname,id <> 0,0,PK_color,,1,1
+11,7,UQ_color,UQ_color,,,0,UQ_color,,2,1
+12,8,country,country,rname,id <> 0,0,PK_country,,1,1
+13,9,dog,dog,rname, owner.rname, onum,id <> 0,0,PK_dog,,1,1
+14,9,UQ_dog,UQ_dog,,,0,UQ_dog,,2,3
+15,12,dograting,dograting,dog,rating,,0,PK_dograting,,1,2
+16,13,dogshow,dogshow,show,dog,,0,PK_dogshow,,1,2
+17,14,dogtitul,dogtitul,dog,show,titul,,0,PK_dogtitul,,1,3
+18,15,dogtitula,dogtitula,dog,country,name,,0,PK_dogtitula,,1,3
+19,16,factory,factory,rname,number,id <> 0,0,PK_factory,,1,1
+20,16,UQ_factory,UQ_factory,,,0,UQ_factory,,2,2
+21,17,FactoryType,FactoryType,rname,,0,PK_FactoryType,,1,1
+22,17,UQ_FactoryType,UQ_FactoryType,,,0,UQ_FactoryType,,2,1
+23,18,FciGroup,FciGroup,rname,,0,PK_FciGroup,,1,1
+24,18,UQ_FciGroup,UQ_FciGroup,,,0,UQ_FciGroup,,2,1
+25,19,fucking,fucking,fuckdate, father.rname, mother.rname,id <> 0,0,PK_fucking,,1,1
+26,19,UQ_fucking,UQ_fucking,,,0,UQ_fucking,,2,3
+27,21,gofuck,gofuck,dog,regnum,date,id <> 0,0,PK_gofuck,,1,1
+28,21,UQ_gofuck,UQ_gofuck,,,0,UQ_gofuck,,2,3
+29,22,Log,Log,id,,0,PK_Log,,1,1
+30,23,LogTable,LogTable,name,,0,PK_LogTable,,1,1
+31,23,UQ_LogTable,UQ_LogTable,,,0,UQ_LogTable,,2,1
+32,24,LogUser,LogUser,uid,,0,PK_LogUser,,1,1
+33,24,UQ_LogUser,UQ_LogUser,,,0,UQ_LogUser,,2,1
+34,26,owner,owner,rname,id <> 0,0,PK_owner,,1,1
+35,26,UQ_owner,UQ_owner,,,0,UQ_owner,,2,5
+36,28,OwnGroup,OwnGroup,rname,,0,PK_OwnGroup,,1,1
+37,28,UQ_OwnGroup,UQ_OwnGroup,,,0,UQ_OwnGroup,,2,1
+38,29,rating,rating,rname,,0,PK_rating,,1,1
+39,29,UQ_rating,UQ_rating,,,0,UQ_rating,,2,1
+40,30,refery,refery,rname,id <> 0,0,PK_refery,,1,1
+41,30,UQ_refery,UQ_refery,,,0,UQ_refery,,2,1
+42,31,Fields,Fields,Tables,name,,0,PK_Fields,,1,2
+43,31,UQ_Fields_Name,UQ_Fields_Name,,,0,UQ_Fields_Name,,2,2
+44,32,Forms,Forms,KeyH,num,,0,PK_Forms,,1,3
+45,33,KeyC,KeyC,KeyH,num,,0,PK_KeyC,,1,2
+46,34,KeyF,KeyF,KeyH,num,,0,PK_KeyF,,1,2
+47,35,KeyH,KeyH,Tables,name,,0,PK_KeyH,,1,1
+48,35,UQ_KeyH_Name,UQ_KeyH_Name,,,0,UQ_KeyH_Name,,2,2
+49,36,Tables,Tables,name,,0,PK_Tables,,1,1
+50,36,UQ_Tables_Name,UQ_Tables_Name,,,0,UQ_Tables_Name,,2,1
+51,37,sex,sex,rname,,0,PK_sex,,1,1
+52,37,UQ_sex,UQ_sex,,,0,UQ_sex,,2,1
+53,38,show,show,city,date,rname,id <> 0,0,PK_show,,1,1
+54,38,UQ_show,UQ_show,,,0,UQ_show,,2,3
+55,39,showclass,showclass,rname,,0,PK_showclass,,1,1
+56,39,UQ_showclass,UQ_showclass,,,0,UQ_showclass,,2,1
+57,40,ShowRang,ShowRang,rname,,0,PK_ShowRang,,1,1
+58,40,UQ_ShowRang,UQ_ShowRang,,,0,UQ_ShowRang,,2,1
+59,41,ShowSection,ShowSection,rname,,0,PK_ShowSection,,1,1
+60,41,UQ_ShowSection,UQ_ShowSection,,,0,UQ_ShowSection,,2,1
+61,42,SngGroup,SngGroup,rname,,0,PK_SngGroup,,1,1
+62,42,UQ_SngGroup,UQ_SngGroup,,,0,UQ_SngGroup,,2,1
+63,43,street,street,rname,id <> 0,0,PK_street,,1,1
+64,43,UQ_street,UQ_street,,,0,UQ_street,,2,3
+65,44,streettype,streettype,rname,,0,PK_streettype,,1,1
+66,44,UQ_streettype,UQ_streettype,,,0,UQ_streettype,,2,1
+67,45,titul,titul,ename,,0,PK_titul,,1,1
+68,45,UQ_titul,UQ_titul,,,0,UQ_titul,,2,1
+69,1,color,Цвет,,,0,FK_baby_color,10,3,1
+70,1,fucking,Вязка,, ,0,FK_baby_fucking,25,3,1
+71,1,owner,Владелец,,,0,FK_baby_owner,34,3,1
+72,1,sex,Пол,,,0,FK_baby_sex,51,3,1
+73,3,fgrp,Группа FCI,,,0,FK_breed_fgrp,23,3,1
+74,3,orgp,Группа своя,,,0,FK_breed_orgp,36,3,1
+75,3,sgrp,Группа СНГ,,,0,FK_breed_sgrp,61,3,1
+76,4,parent,Входит в,,,0,FK_city_parent,4,3,1
+77,4,type,Тип,,,0,FK_city_type,6,3,1
+78,6,city,city,,type_id in (2, 4, 5),0,FK_club_city,4,3,1
+79,6,street,street,,city_id = {city_id},0,FK_club_street,63,3,1
+80,9,baby,baby,,,0,FK_dog_baby,1,3,2
+81,9,breed,breed,,,0,FK_dog_breed,2,3,1
+82,9,club,club,,,0,FK_dog_club,8,3,1
+83,9,color,color,,,0,FK_dog_color,10,3,1
+84,9,father,father,,breed_id = {breed_id}; sex_id = 0,2,FK_dog_father,13,3,1
+85,9,fucking,fucking,,,0,FK_dog_fucking,25,3,1
+86,9,mother,mother,,breed_id = {breed_id}; sex_id = 1,2,FK_dog_mother,13,3,1
+87,9,orgclub,orgclub,,,0,FK_dog_orgclub,8,3,1
+88,9,owner,owner,,id <> 0,0,FK_dog_owner,34,3,1
+89,9,sex,sex,,,0,FK_dog_sex,51,3,1
+90,12,dog,dog,,,0,FK_dograting_dog,13,3,1
+91,12,rating,rating,,,0,FK_dograting_rating,38,3,1
+92,13,class,class,rname,,0,FK_dogshow_class,55,3,1
+93,13,dog,dog,rname,,0,FK_dogshow_dog,13,3,1
+94,13,rating,rating,rname,,0,FK_dogshow_rating,38,3,1
+95,13,refery,refery, ,,0,FK_dogshow_refery,40,3,1
+96,13,section,section,rname,,0,FK_dogshow_section,59,3,1
+97,13,show,show,rname,,0,FK_dogshow_show,53,3,1
+98,14,dog,dog,,,0,FK_dogtitul_dog,13,3,1
+99,14,dogshow,dogshow,,,0,FK_dogtitul_dogshow,16,3,2
+100,14,show,show,,,0,FK_dogtitul_show,53,3,1
+101,14,titul,titul,,,0,FK_dogtitul_titul,67,3,1
+102,15,country,country,,,0,FK_dogtitula_country,12,3,1
+103,15,dog,dog,,,0,FK_dogtitula_dog,13,3,1
+104,15,titula,titula,,,0,FK_dogtitula_titula,67,3,1
+105,16,type,type,,,0,FK_factory_type,21,3,1
+106,31,Tables,Tables,,,0,FK_Fields_Tables,49,3,1
+107,32,KeyH,KeyH,,,0,FK_Forms_KeyH,47,3,1
+108,19,breed,breed,,,0,FK_fucking_breed,2,3,1
+109,19,father,father,,breed_id = {breed_id}; sex_id = 0,2,FK_fucking_father,13,3,1
+110,19,mother,mother,,breed_id = {breed_id}; sex_id = 1,2,FK_fucking_mother,13,3,1
+111,21,dog,dog,,,0,FK_gofuck_dog,13,3,1
+112,21,dog1,dog1,,,0,FK_gofuck_dog1,13,3,1
+113,21,dog2,dog2,,,0,FK_gofuck_dog2,13,3,1
+114,21,dog3,dog3,,,0,FK_gofuck_dog3,13,3,1
+115,35,Self,Self,,,0,FK_Key_Self,47,3,1
+116,33,KeyH,KeyH,,,0,FK_KeyC_KeyH,47,3,1
+117,34,KeyH,KeyH,,,0,FK_KeyF_KeyH,47,3,1
+118,35,Tables,Tables,,,0,FK_KeyH_Tables,49,3,1
+119,22,Table,Table,,,0,FK_Log_Table,30,3,1
+120,22,User,User,,,0,FK_Log_User,32,3,1
+121,26,city,city,,type_id in (2, 4, 5),0,FK_owner_city,4,3,1
+122,26,factory,factory,,,0,FK_owner_factory,19,3,1
+123,26,street,street,,city_id = {city_id},0,FK_owner_street,63,3,1
+124,30,city,city,,type_id in (2, 4, 5),0,FK_refery_city,4,3,1
+125,30,street,street,,city_id = {city_id},0,FK_refery_street,63,3,1
+126,38,city,city,,type_id in (2, 4, 5),0,FK_show_city,4,3,1
+127,38,rang,rang,,,0,FK_show_rang,57,3,1
+128,43,city,city,,type_id in (2, 4, 5),0,FK_street_city,4,3,1
+129,43,type,type,,,0,FK_street_type,65,3,1
